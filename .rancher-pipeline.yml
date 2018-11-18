@@ -1,0 +1,6 @@
+stages:
+- name: deploy
+  steps:
+  - applyYamlConfig:
+      path: ./site.yml
+timeout: 60
